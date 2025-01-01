@@ -21,8 +21,8 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from local_groundingdino.util import get_tokenlizer
-from local_groundingdino.util.misc import (
+from ...util import get_tokenlizer
+from ...util.misc import (
     NestedTensor,
     inverse_sigmoid,
     nested_tensor_from_tensor_list,
